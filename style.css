@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-size: 60px; git
+    font-size: 48px;
     color: #3E3E3E;
     padding-bottom: 10px;
 }
@@ -49,6 +49,7 @@ ul {
 li {
     display: inline-block;
     margin-left: 8px;
+    padding: 8px;
 }
 
 ul:first-child {
@@ -69,6 +70,23 @@ nav {
     grid-area: nav;
 }
 
+.transicionNav {
+    transition: all;
+}
+
+.transicionNav:hover {
+    background-color: #d4edab;
+    border-radius: 30px;
+}
+
+.transicionRedes {
+    transition: all;
+} 
+
+.transicionRedes:hover {
+    width: 56px;
+    height: 56px;
+}
 
 header {
     height: 450px;
@@ -156,7 +174,11 @@ footer {
     border-radius: 12px;
     text-decoration: none;
     text-align: center;
-    
+    transition: all;
+}
+
+.button:hover {
+    background-color: #8DC139;
 }
 
 .comillas {
@@ -188,12 +210,12 @@ footer {
 }
 
 .circulo {
+    background-image: linear-gradient(to top left, #01711f 10%, #19d6a7 90%);
+    opacity: 70%;
     margin-top: 50px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: #0F8F6E;
-    opacity: 30%;
     position: absolute;
     right: 40%;
     z-index: -2;
