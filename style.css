@@ -205,7 +205,7 @@ footer {
 }
 
 .circulo {
-    background-image: linear-gradient(to top left, #05d03b 10%, #06b2cd 90%);
+    background-color: #d4edab;
     opacity: 70%;
     margin-top: 50px;
     width: 200px;
